@@ -10,6 +10,14 @@
 body{
     background-color: #000;
     color: #fff;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+main{
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
 }
 nav{
     min-width: 80px;
@@ -75,6 +83,7 @@ nav i.active{
 .list-1{
     display: flex;
     gap: 20px;
+    min-height: 250px;
     overflow-x: scroll;
     margin-top: 20px;
 }
@@ -82,6 +91,7 @@ nav i.active{
     display: flex;
     overflow-x: scroll;
     margin-top: 10px;
+    min-height: 550px;
 }
 .card1-1{
     overflow: hidden;
@@ -193,7 +203,26 @@ nav i.active{
     border: 0.1rem solid #ffffff27;
     border-radius: 16px;
     transition: 0.2s ease-in-out;
-    background-color: #ffffff13;
+    background-color: #ffffff0c;
+}
+.cardmusic{
+    display: grid;
+    max-width: 600px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.mt-auto{
+    margin-top: auto;
+}
+.cardmusic .card{
+    padding: 16px;
+    border: 0.1rem solid #ffffff27;
+    border-radius: 16px;
+    transition: 0.2s ease-in-out;
+    background-color: #ffffff0a;
+}
+.cardmusic .card img{
+    width: 100%;
 }
 .musiccard:hover{
     transform: scale(1.05);
@@ -215,3 +244,27 @@ nav i.active{
     font-weight: 200;
     font-size: 10px;
 }
+.footer{
+    width: 100%;
+    display: flex;
+    color: #ffffff81;
+    line-height: 40px;
+    justify-items: space-between;
+    text-align: center;
+    padding: 60px 10px;
+    align-items: center;
+}
+.footer p a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: rgb(16, 136, 16);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.footer .links a{
+    padding: 15px;
+}
+.footer .links a i{
+    color: #fff;
+    font: 30px;
+} 
