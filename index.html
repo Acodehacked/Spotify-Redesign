@@ -5,13 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Home | Spotify</title>
 </head>
 
-<body>
-
-
+<body class="flex">
+    <nav>
+        <img class="logo" src="assets/logo.jpeg" />
+        <i class='bx bxs-home active'></i>
+        <i class='bx bx-compass'></i>
+        <i class='bx bx-microphone'></i>
+        <i class='bx bx-list-ul'></i>
+        <i class='bx bxs-heart'></i>
+    </nav>
+    <main class="flex w-full flex-col px-2 py-3">
+        <div class="searchmenu">
+            <i class='bx bx-search-alt-2 s-2'></i>
+            <input placeholder="Search Music here" />
+        </div>
+        <div class="py-2">
+            <h3 class="subtitle">Playlists For You</h3>
+        </div>
+        <div class="flex px-2 list-1 no-scrollbar">
+            <div class="card1-1 card1">
+                <h1>Daily Mix for You!</h1>
+                <img src="assets/guitar.webp" />
+            </div>
+            <div class="card1-1 card2">
+                <h1>Enjoy your Moment!</h1>
+                <img src="assets/sing.webp" />
+            </div>
+            <div class="card1-1 card2">
+                <h1>Remix Life!</h1>
+                <img src="assets/1.webp" />
+            </div>
+            <div class="card1-1 card2">
+                <h1>Joy!</h1>
+                <img src="assets/2.jpg" />
+            </div>
+        </div>
+        <div class="flex px-2 list-2 no-scrollbar">
+            <div class="flex flex-col b-r w-300">
+                <h5 class="subtitle">Tomorrow Tunes</h5>
+                <img src="assets/music.jpg" class="musicimage" />
+                <p class="para pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et unde at illo
+                    accusantium </p>
+                <p class="para pt-2">15 songs - 10Hrs+</p>
+            </div>
+            <div class="flex flex-col b-r w-300 ps-2 pe-2">
+                <h5 class="subtitle">Tracks of the week</h5>
+                <div class="musiccard flex mt-2">
+                    <img src="assets/guitar.webp" />
+                    <div class="details flex flex-col">
+                        <h4 class="musictitle">Music 1</h4>
+                        <p class="musicsubtitle">Raj Mahanresh</p>
+                    </div>
+                </div>
+                <div class="musiccard flex mt-1">
+                    <img src="assets/guitar.webp" />
+                    <div class="details flex flex-col">
+                        <h4 class="musictitle">Music 1</h4>
+                        <p class="musicsubtitle">Raj Mahanresh</p>
+                    </div>
+                </div>
+                <div class="musiccard flex mt-1">
+                    <img src="assets/guitar.webp" />
+                    <div class="details flex flex-col">
+                        <h4 class="musictitle">Music 1</h4>
+                        <p class="musicsubtitle">Raj Mahanresh</p>
+                    </div>
+                </div>
+                <p class="para pt-2">15 songs - 10Hrs+</p>
+            </div>
+            <div class="grid w-full b-r ps-2 pe-2">
+                <h5 class="subtitle">Suggested Album for you</h5>
+                <div class="musiccard flex mt-2">
+                    <img src="assets/guitar.webp" />
+                    <div class="details flex flex-col">
+                        <h4 class="musictitle">Music 1</h4>
+                        <p class="musicsubtitle">Raj Mahanresh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 
